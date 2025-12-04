@@ -1,3 +1,2 @@
 .gcloudignore
-/venv
-/app.yaml
+venv/
