@@ -1,0 +1,47 @@
+[
+  {
+    "email": "admin1@osu.com",
+    "password": "secretpassword1!",
+    "connection": "Username-Password-Authentication"
+  },
+  {
+    "email": "instructor1@osu.com",
+    "password": "secretpassword1!",
+    "connection": "Username-Password-Authentication"
+  },
+  {
+    "email": "instructor2@osu.com",
+    "password": "secretpassword1!",
+    "connection": "Username-Password-Authentication"
+  },
+  {
+    "email": "student1@osu.com",
+    "password": "secretpassword1!",
+    "connection": "Username-Password-Authentication"
+  },
+  {
+    "email": "student2@osu.com",
+    "password": "secretpassword1!",
+    "connection": "Username-Password-Authentication"
+  },
+  {
+    "email": "student3@osu.com",
+    "password": "secretpassword1!",
+    "connection": "Username-Password-Authentication"
+  },
+  {
+    "email": "student4@osu.com",
+    "password": "secretpassword1!",
+    "connection": "Username-Password-Authentication"
+  },
+  {
+    "email": "student5@osu.com",
+    "password": "secretpassword1!",
+    "connection": "Username-Password-Authentication"
+  },
+  {
+    "email": "student6@osu.com",
+    "password": "secretpassword1!",
+    "connection": "Username-Password-Authentication"
+  }
+]
