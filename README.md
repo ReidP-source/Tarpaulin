@@ -1,6 +1,8 @@
 # Tarpaulin Course Management API
 
-A Flask REST API for a course management system inspired by Tarpaulin. The API supports user authentication with Auth0, role-based access control, course management, student enrollment, and avatar uploads backed by Google Cloud Datastore and Google Cloud Storage.
+A Flask REST API for a course management system inspired by Tarpaulin, a fictional Canvas-like education platform.
+
+The API supports Auth0 authentication, role-based access control, course management, student enrollment, and avatar uploads backed by Google Cloud Datastore and Google Cloud Storage.
 
 ## Features
 
