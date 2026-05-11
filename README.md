@@ -29,13 +29,15 @@ The API supports Auth0 authentication, role-based access control, course managem
 
 ```text
 .
-├── app.py
+├── main.py
 ├── users.json
-├── .env
+├── .env (ignored)
+├── app.yaml
+├── requirements.txt
 └── README.md
 ```
 
-`app.py` contains the Flask application and route handlers. `users.json` contains the seed users used to initialize Auth0 and Datastore.
+`main.py` contains the Flask application and route handlers. `users.json` contains the seed users used to initialize Auth0 and Datastore.
 
 ## Environment Variables
 
@@ -55,8 +57,8 @@ The application expects these Auth0 values on startup. If any are missing, the a
 The app is configured for the following Google Cloud project:
 
 ```python
-PROJECT_ID = "assignment6-pettibor"
-BUCKET_NAME = "assignment6-pettibor-avatars"
+PROJECT_ID = e.g."assignment6-pettibor"
+BUCKET_NAME = e.g."assignment6-pettibor-avatars"
 ```
 
 Before running the app, make sure:
@@ -85,7 +87,7 @@ pip install Flask google-cloud-datastore google-cloud-storage requests python-jo
 Start the Flask server:
 
 ```bash
-python app.py
+python main.py
 ```
 
 The API runs locally at:
